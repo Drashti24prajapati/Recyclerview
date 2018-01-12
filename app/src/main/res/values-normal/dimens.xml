@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cover_height">160dp</dimen>
+    <dimen name="title">15sp</dimen>
+    <dimen name="count">12sp</dimen>
+    <dimen name="potrait_height">250dp</dimen>
+    <dimen name="txtsize">15sp</dimen>
+</resources>

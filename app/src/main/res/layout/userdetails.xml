@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/potrait_height">
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/imgUserPotrait"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/potrait_height"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/noimage" />
+
+        <ImageView
+            android:id="@+id/imgStar"
+            android:layout_width="30dp"
+            android:layout_height="@dimen/height"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/star" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/bordor"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/txtID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1234"
+            android:textColor="@color/black"
+            android:textSize="@dimen/title"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jay Z"
+            android:textColor="@color/black"
+            android:textSize="@dimen/count"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/bordor"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/txtdesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Shawn Corey Carter, known professionally as JAY-Z, is an American rapper and businessman. He is one of the best-selling musicians of all time, having sold more than 100 million records, while receiving 21 Grammy Awards for his music."
+            android:textColor="@color/black"
+            android:textSize="@dimen/title"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+</LinearLayout>

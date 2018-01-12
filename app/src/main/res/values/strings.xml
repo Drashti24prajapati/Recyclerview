@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">HomeAssignment</string>
+
+    <string name="Id">ID</string>
+    <string name="firstName">FirstName</string>
+    <string name="lastName">LastName</string>
+    <string name="portrait">Portrait</string>
+    <string name="badgeColor">BadgeColor</string>
+    <string name="description">description</string>
+
+    <string name="intentId">ID</string>
+    <string name="intentFirstName">FirstName</string>
+    <string name="intentLastName">LastName</string>
+    <string name="intentPortrait">Portrait</string>
+    <string name="intentbadgeColor">BadgeColor</string>
+    <string name="intentDescription">description</string>
+</resources>
